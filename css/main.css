@@ -8,10 +8,15 @@ body {
 	margin: 0;
 }
 header {
-  background-color: #e2e2e2;
-	padding: 1rem 0;
-	color: white;
 	position: relative;
 	text-align: center;
-	height: 20em;
 }
+nav li {
+	display: inline;
+	width: 25%;
+	float: left;
+}
+nav {
+	top: 25em;
+}
+
