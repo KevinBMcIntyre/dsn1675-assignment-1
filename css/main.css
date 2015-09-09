@@ -11,6 +11,14 @@ header {
 	position: relative;
 	text-align: center;
 }
+header img{
+
+	width: 25px;
+}
+header h1{
+	display: inline;
+}
+
 nav li {
 	display: inline;
 	width: 25%;
@@ -20,3 +28,17 @@ nav {
 	top: 25em;
 }
 
+header a{
+	text-decoration: none;
+}
+.top img{
+	width: 100%;
+}
+.top strong, .top p {
+    position: relative;
+    top: -5em;
+    color: white;
+    text-align: center;
+    margin-bottom: -4em;
+    width: 100%;
+  }
