@@ -4,36 +4,36 @@
 <nav>
 <ol>
 <li>[ Seven wonders ]</li>
-[ Buy tickets ]
-[ Now playing ]
-[ This week ]
+<li>[ Buy tickets ]</li>
+<li>[ Now playing ]</li>
+<li>[ This week ]</li>
 </ol>
 </nav>
 </header>
 <main>
 <strong>The Seven Wonders of the Ancient World</strong>
 <p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
-
 <h2>The Seven Wonders</h2>
 <h3>Great Pyramid of Giza</h3>
-<dl><dt>Date of construction:</dt> <dd>2584–2561 BC</dd>
-Builders: Egyptians
-Location: Giza Necropolis, Egypt
+<dl>
+<dt>Date of construction:</dt> <dd>2584–2561 BC</dd>
+<dt>Builders:</dt> <dd>Egyptians</dd>
+<dt>Location:</dt> <dd>Giza Necropolis, Egypt</dd>
 </dl>
-
 <a>[ Learn more about Giza ]</a>
 
-Hanging Gardens of Babylon
-Date of construction: Circa 600 BC
-Builders: Babylonians
-Location: Nineveh, Iraq
-[ Learn more about the Hanging Gardens ]
+<h3>Hanging Gardens of Babylon</h3>
+<dl><dt>Date of construction:</dt><dd>Circa 600 BC</dd>
+<dt>Builders:</dt><dd>Babylonians</dd>
+<dt>Location:</dt><dd>Nineveh, Iraq</dd></dl>
+<a>[ Learn more about the Hanging Gardens ]</a>
 
-Temple of Artemis
-Date of construction: Circa 550 BC
-Builders: Greeks
-Location: Selçuk, Turkey
-[ Learn more about the Temple ]
+
+<h3>Temple of Artemis</h3>
+<dl><dt>Date of construction:</dt><dd>Circa 550 BC</dd>
+<dt>Builders:</dt><dd>Greeks</dd>
+<dt>Location:</dt><dd>Selçuk, Turkey</dd></dl>
+<a>[ Learn more about the Temple ]</a>
 
 Statue of Zeus at Olympia
 Date of construction: 435 BC
@@ -131,8 +131,8 @@ Awesome art: witness a full mosaic floor under construction
 <a>Hours
 <a>Directions
 
-<p>1618 Plato Blvd.
-<p>Atlantis, Atlantis, Atlantic Ocean
+<p>1618 Plato Blvd.</p>
+<p>Atlantis, Atlantis, Atlantic Ocean</p>
 
 <a>Exhibits
 <a>Collections
