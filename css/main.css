@@ -1,0 +1,17 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+header {
+  background-color: #e2e2e2;
+	padding: 1rem 0;
+	color: white;
+	position: relative;
+	text-align: center;
+	height: 20em;
+}
