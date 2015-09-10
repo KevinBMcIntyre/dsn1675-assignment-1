@@ -42,6 +42,7 @@ header a{
 .top img{
 	width: 112%;
 	margin: 0 -6%;
+		box-shadow: 0 0 0 0px grey;
 }
 .top p {
     position: relative;
@@ -53,8 +54,9 @@ header a{
     text-shadow: 4px 4px 10px black;
   }
 
-dl{
+dt{
 	display: inline-block;
+	width: 30%;
 }
 main {
 	padding:0 5%;
@@ -62,8 +64,20 @@ main {
 }
 main img{
 	width: 100%;
+	box-shadow: 0 0 0 3px grey;
 }
 
 h2{
 	text-align: center;
+}
+.learn {
+		width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: 2em;
+}
+.learn a {
+	text-decoration: none;
+	color: white;
 }
