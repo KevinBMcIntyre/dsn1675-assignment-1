@@ -10,9 +10,9 @@ body {
 header {
 	position: relative;
 	text-align: center;
+	padding-top: 1em;
 }
 header img{
-
 	width: 25px;
 }
 header h1{
@@ -23,18 +23,26 @@ nav li {
 	display: inline;
 	width: 25%;
 	float: left;
+	padding: .5em;
 }
-nav {
-	top: 25em;
+nav ol {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
-
+nav{
+	background-color: grey;
+	margin-top: 1em;
+}
 header a{
 	text-decoration: none;
+	color: white;
 }
 .top img{
-	width: 100%;
+	width: 112%;
+	margin: 0 -6%;
 }
-.top strong, .top p {
+.top p {
     position: relative;
     top: -5em;
     color: white;
@@ -42,3 +50,13 @@ header a{
     margin-bottom: -4em;
     width: 100%;
   }
+
+dl{
+	display: inline-block;
+}
+main {
+	margin:0 5%;
+}
+main img{
+	width: 100%;
+}
