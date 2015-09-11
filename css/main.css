@@ -20,18 +20,18 @@ header h1{
 	display: inline;
 }
 
-nav li {
+header nav li {
 	display: inline;
 	width: 25%;
 	float: left;
 	padding: .5em;
 }
-nav ol {
+header nav ol {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-nav{
+header nav{
 	background-color: grey;
 	margin-top: 1em;
 }
@@ -97,7 +97,7 @@ h2{
 }
 .price div {
 background-color: grey;
-    padding: 1em 5em;
+    padding: 1em 1em;
     margin: 0 2.5%;
     width: 44%;
     display: inline-block;
