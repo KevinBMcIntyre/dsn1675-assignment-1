@@ -42,7 +42,6 @@ header a{
 .top img{
 	width: 112%;
 	margin: 0 -6%;
-		box-shadow: 0 0 0 0px grey;
 }
 .top p {
     position: relative;
@@ -54,9 +53,18 @@ header a{
     text-shadow: 4px 4px 10px black;
   }
 
-dt{
+.desc li{
 	display: inline-block;
-	width: 30%;
+	width: 32%;
+}
+.desc{
+	padding: 0;
+}
+.desc dt{
+	font-weight: bold;
+}
+.desc dl, .desc dd{
+	margin: 0;
 }
 main {
 	padding:0 5%;
@@ -64,7 +72,6 @@ main {
 }
 main img{
 	width: 100%;
-	box-shadow: 0 0 0 3px grey;
 }
 
 h2{
@@ -106,3 +113,25 @@ background-color: grey;
 	text-decoration: none;
 	color: white;
 }
+footer {
+padding:0 5%;
+}
+main li{
+	display: inline;
+}
+.top2 img{
+margin: 0px -15.5%;
+    width: 131%;
+}
+}
+
+.playing{
+    width: 112%;
+    background-color: grey;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: -0.65em;
+    margin-left: -6%;
+    color: white;
+    margin-top:2em;
+    }
