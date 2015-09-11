@@ -91,4 +91,18 @@ h2{
     position: relative;
     bottom: 7px;
 }
+.price {
+	width: 100%;
+	text-align: center;
+}
+.price div {
+background-color: grey;
+    padding: 1em 5em;
+    margin: 0 2.5%;
+    width: 44%;
+    display: inline-block;
+}
+.price a {
+	text-decoration: none;
+	color: white;
 }
