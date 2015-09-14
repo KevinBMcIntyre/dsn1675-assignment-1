@@ -65,7 +65,7 @@ header a{
 	margin: 0;
 }
 main{
-	padding:0 5%;
+	padding:0 5% 5% 5%;
 	background-color: #fee2c9;
 }
 main img{
