@@ -167,3 +167,10 @@ footer li{
 footer ul{
 	padding: 0;
 }
+footer ol{
+	display: inline;
+	padding: 0;
+}
+footer p{
+	margin:0;
+}
