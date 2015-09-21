@@ -239,9 +239,24 @@ h2{
     width: 112%;
 }
 }
-@media only screen and (min-width: 50em){
-.divider{
-width: 50%;
+@media only screen and (min-width: 55.6em){
+.divider1{
+width: 47%;
 margin: 0;
 float: left;
+}
+.divider2{
+width: 47%;
+margin: 0;
+float: right;
+}
+.divider3{
+width: 47%;
+margin: 0;
+float: left;
+margin-left: 26.5%;
+}
+h2 {
+	clear: both;
+}
 }
