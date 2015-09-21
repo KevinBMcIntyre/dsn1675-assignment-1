@@ -239,3 +239,9 @@ h2{
     width: 112%;
 }
 }
+@media only screen and (min-width: 50em){
+.divider{
+width: 50%;
+margin: 0;
+float: left;
+}
