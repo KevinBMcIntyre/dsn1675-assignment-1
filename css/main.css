@@ -9,7 +9,6 @@ body{
 	margin: 0;
 }
 header{
-	position: relative;
 	text-align: center;
 	padding-top: 1em;
 }
@@ -19,11 +18,13 @@ header img{
 header h1{
 	display: inline;
 }
-header nav li{
-	display: inline;
-	width: 25%;
-	float: left;
+header nav li {
+	list-style-type: none;
+}
+header nav a {
+	display: block;
 	padding: .5em;
+	text-align: left;
 }
 header nav ol{
 	margin: 0;
@@ -38,18 +39,19 @@ header a{
 	text-decoration: none;
 	color: white;
 }
-.top img{
-	width: 111.6%;
+.top {
+	background-image: url(../images/maerten.jpg);
 	margin: 0 -6%;
+	padding: 1em;
+	background-size: cover;
 }
 .top p{
-	position: relative;
-	top: -8rem;
+	top: -6rem;
 	color: white;
 	text-align: center;
-	margin-bottom: -5em;
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
+	margin: 0;
 }
 .desc li{
 	display: inline-block;
@@ -177,4 +179,19 @@ footer p{
 }
 footer a{
 	color: #b808ff;
+}
+@media only screen and (min-width: 20em){
+header nav a{
+	display: inline;
+	width: 25%;
+	float: left;
+	padding: .5em;
+	text-align: center;
+}
+.top p{
+	top: -8rem;
+}
+.top {
+	padding: 2em 3.5em;
+}
 }
