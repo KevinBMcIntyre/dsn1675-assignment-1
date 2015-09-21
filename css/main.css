@@ -46,7 +46,7 @@ header a{
 }
 .top {
 	background-image: url(../images/maerten.jpg);
-	margin: 0 -6%;
+	margin: 0 -4%;
 	padding: 1em;
 	background-size: cover;
 }
@@ -109,10 +109,10 @@ h2{
 	text-align: center;
 }
 .price div{
-	background-color: black;
+	background-color: #b808ff;
 	padding: 1em 1em;
-	margin: 0 2.5%;
-	width: 44%;
+	margin: 0.25em 0;
+	width: 100%;
 	display: inline-block;
 	border-radius: 0.25em;
 }
@@ -126,31 +126,25 @@ footer{
 main li{
 	display: inline;
 }
-.top2 img{
-	width: 111.6%;
-	margin: 0 -6%;
+.top2{
+	background-image: url(../images/maroti.jpg);
+	margin: 0 -4%;
+	padding: 1em;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	width: 108%;
+	text-shadow: 1px 2px 1px black;
 }
 .playing{
 	width: 111.6%;
 	background-color: black;
 	text-align: center;
 	padding: .5em;
-	margin-bottom: -0.65em;
+	margin-bottom: 0;
 	margin-left: -6%;
 	color: white;
 	margin-top:2em;
-}
-figure{
-	margin: 1em 0 0 0;
-}
-.top2 figcaption{
-	position: relative;
-	top: -11rem;
-	color: white;
-	text-align: center;
-	margin-bottom: -7em;
-	width: 100%;
-	text-shadow: 1px 2px 1px black;
 }
 .pr{
 	text-align: center;
@@ -168,7 +162,7 @@ main a{
 	text-decoration: none;
 }
 .days ol{
-	width: 55%;
+	width: 95%;
 	margin: 0;
 	padding: 0;
 }
@@ -201,6 +195,7 @@ header nav a{
 }
 .top {
 	padding: 2em 3.5em;
+	margin: 0 -6%;
 }
 .button{
 	display: inline;
@@ -231,5 +226,16 @@ h2{
 .desc div{
 	width: 32%;
 	text-align: center;
+}
+.days ol{
+	width: 55%;
+}
+.price div{
+	margin: 0 2.5%;
+	width: 44%;
+}
+.top2 {
+    margin: 0 -6%;
+    width: 112%;
 }
 }
