@@ -362,4 +362,7 @@ header h1{
 	left: 11%;
 	top: 9em;
 }
-	}
+header nav li {
+margin-left: 5%;
+}
+}
