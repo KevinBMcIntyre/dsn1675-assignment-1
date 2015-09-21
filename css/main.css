@@ -19,9 +19,9 @@ header img{
 	left: calc(50% - 52.5px);
 }
 header h1{
-	display: block;
-	height: 2em;
-	margin-top: 2em;
+	display: inline-block;
+	height: 3em;
+	margin: 2em 0 0 0;
 }
 header nav li {
 	list-style-type: none;
@@ -203,9 +203,21 @@ header nav a{
 .button{
 	display: inline;
 	color: white;
-	bottom: 7px;
+	position: absolute;
+	top: 1.35em;
+	right: 1em;
+	left: 79%;
+	width: auto;
+	padding: 0.25em .75em;
+	left: auto;
 }
 header img{
-	width: 25px;
+	width: 45px;
+	top: 1.5em;
+	left: .75em;
+}
+header h1{
+	margin: 0em 2.2em;
+	height: 1em;
 }
 }
